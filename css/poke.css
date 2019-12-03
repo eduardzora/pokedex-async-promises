@@ -1,0 +1,40 @@
+body {
+    background: white;
+    color: white;
+    font-family: Arial;
+}
+
+.pokedex{
+    background:#DC0A2D;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 450px;
+}
+
+.desktop{
+    background: #94c594;
+    border: 15px solid white;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* alinea verticalmente si la dirección está en fila */
+}
+.loader {
+    object-fit: none;
+}
+  
+.loader.hidden {
+    display: none;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.name::first-letter {
+    text-transform: uppercase;
+}
